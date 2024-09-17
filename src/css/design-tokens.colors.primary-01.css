@@ -1,0 +1,13 @@
+:root {
+  --color-blue-100: #e0f0fa;
+  --color-blue-200: #8bc9ef;
+  --color-blue-300: #308fc4;
+  --color-blue-400: #07507b;
+  --color-blue-500: #001c37;
+
+  --color-primary-100: var(--color-blue-100);
+  --color-primary-200: var(--color-blue-200);
+  --color-primary-300: var(--color-blue-300);
+  --color-primary-400: var(--color-blue-400);
+  --color-primary-500: var(--color-blue-500);
+}

@@ -1,0 +1,17 @@
+:root {
+  /* Primitive Colors */
+  --color-gray-100: #e8eef2;
+  --color-gray-200: #adc4d2;
+  --color-gray-300: #688ba2;
+  --color-gray-400: #344e63;
+  --color-gray-500: #0f1c2a;
+
+  /* Usage Colors */
+  --color-neutral-0: #fff;
+  --color-neutral-100: var(--color-gray-100);
+  --color-neutral-200: var(--color-gray-200);
+  --color-neutral-300: var(--color-gray-300);
+  --color-neutral-400: var(--color-gray-400);
+  --color-neutral-500: var(--color-gray-500);
+  --color-neutral-1000: #000;
+}

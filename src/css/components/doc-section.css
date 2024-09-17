@@ -1,4 +1,4 @@
-.page {
+.doc-section {
   --background-color-page: var(--color-neutral-100);
   --background-color-page-content: var(--color-neutral-0);
 
@@ -6,13 +6,14 @@
   background-color: var(--background-color-page);
 }
 
-.page__content {
+.doc-section__header,
+.doc-section__content {
   background-color: var(--background-color-page-content);
   max-width: var(--measure-l);
   padding: var(--space-m);
   margin-inline: auto;
 }
 
-.page__content--bleed {
+[data-doc-section-bleed="true"] .doc-section__content {
   padding: 0;
 }

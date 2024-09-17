@@ -1,18 +1,18 @@
 @layer reset, global, compositions, components, utilites;
 
 @import "./reset.css" layer(reset);
-@import "./design-tokens.css" layer(global);
 
-/* Uncomment below line to use static tokes for font-size and spacing. */
-/* @import "./design-tokens-static.css" layer(global); */
+@import "./design-tokens.defaults.css" layer(global);
+@import "./design-tokens.typography.font-sizes.css" layer(global);
+@import "./design-tokens.spacing.css" layer(global);
+@import "./design-tokens.colors.neutral.css" layer(global);
+@import "./design-tokens.colors.primary-01.css" layer(global);
+@import "./design-tokens.css" layer(global);
 
 @import "./global.css" layer(global);
 
 @import "./compositions/flow.css" layer(compositions);
 @import "./compositions/grid.css" layer(compositions);
 
-@import "./components/blurb.css" layer(components);
-@import "./components/button.css" layer(components);
-@import "./components/form.css" layer(components);
-@import "./components/page.css" layer(components);
-@import "./components/tabs.css" layer(components);
+@import "./components/doc-section.css" layer(compositions);
+/* Add new components below */
