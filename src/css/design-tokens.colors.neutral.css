@@ -1,17 +1,29 @@
 :root {
   /* Primitive Colors */
-  --color-gray-100: #e8eef2;
-  --color-gray-200: #adc4d2;
-  --color-gray-300: #688ba2;
-  --color-gray-400: #344e63;
-  --color-gray-500: #0f1c2a;
+  --color-gray-50: #fafafa;
+  --color-gray-100: #f5f5f5;
+  --color-gray-200: #e5e5e5;
+  --color-gray-300: #d4d4d4;
+  --color-gray-400: #a3a3a3;
+  --color-gray-500: #737373;
+  --color-gray-600: #525252;
+  --color-gray-700: #404040;
+  --color-gray-800: #262626;
+  --color-gray-900: #171717;
+  --color-gray-950: #0a0a0a;
 
   /* Usage Colors */
   --color-neutral-0: #fff;
+  --color-neutral-50: var(--color-gray-50);
   --color-neutral-100: var(--color-gray-100);
   --color-neutral-200: var(--color-gray-200);
   --color-neutral-300: var(--color-gray-300);
   --color-neutral-400: var(--color-gray-400);
   --color-neutral-500: var(--color-gray-500);
+  --color-neutral-600: var(--color-gray-600);
+  --color-neutral-700: var(--color-gray-700);
+  --color-neutral-800: var(--color-gray-800);
+  --color-neutral-900: var(--color-gray-900);
+  --color-neutral-950: var(--color-gray-950);
   --color-neutral-1000: #000;
 }

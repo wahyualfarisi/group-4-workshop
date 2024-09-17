@@ -2,11 +2,16 @@
 
 @import "./reset.css" layer(reset);
 
-@import "./design-tokens.defaults.css" layer(global);
+@import "./design-tokens.typography.font-family.css" layer(global);
 @import "./design-tokens.typography.font-sizes.css" layer(global);
 @import "./design-tokens.spacing.css" layer(global);
 @import "./design-tokens.colors.neutral.css" layer(global);
+
+/* 👋 Pick one of the colors */
 @import "./design-tokens.colors.primary-01.css" layer(global);
+/* @import "./design-tokens.colors.primary-02.css" layer(global); */
+/* @import "./design-tokens.colors.primary-03.css" layer(global); */
+
 @import "./design-tokens.css" layer(global);
 
 @import "./global.css" layer(global);
@@ -15,4 +20,5 @@
 @import "./compositions/grid.css" layer(compositions);
 
 @import "./components/doc-section.css" layer(compositions);
+@import "./components/doc-swatch.css" layer(compositions);
 /* Add new components below */

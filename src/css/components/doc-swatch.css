@@ -1,0 +1,5 @@
+.doc-swatch {
+  max-width: 40ch;
+  aspect-ratio: 1;
+  background-color: currentColor;
+}

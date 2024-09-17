@@ -1,19 +1,14 @@
 .doc-section {
-  --background-color-page: var(--color-neutral-100);
-  --background-color-page-content: var(--color-neutral-0);
-
-  padding: var(--space-2xs-l);
-  background-color: var(--background-color-page);
 }
 
 .doc-section__header,
 .doc-section__content {
-  background-color: var(--background-color-page-content);
+  padding: var(--space-m) var(--space-2xs-l);
   max-width: var(--measure-l);
-  padding: var(--space-m);
   margin-inline: auto;
 }
 
 [data-doc-section-bleed="true"] .doc-section__content {
   padding: 0;
+  max-width: none;
 }
