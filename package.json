@@ -1,0 +1,21 @@
+{
+  "name": "sample-responsive-components",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-plugin-vite": "^4.0.0",
+    "browserslist": "^4.23.3",
+    "lightningcss": "^1.27.0",
+    "prettier": "^3.3.3",
+    "prettier-plugin-jinja-template": "^1.4.1"
+  }
+}

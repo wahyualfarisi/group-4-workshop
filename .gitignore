@@ -1,0 +1,22 @@
+.DS_Store
+
+/node_modules
+/dist
+
+yarn-error.log
+
+# Local Netlify folder
+.netlify
+netlify/edge-functions/_generated
+
+.env
+
+.npm
+.cache
+.vscode
+.vite
+
+# Package manager lock files
+pnpm-lock.yaml
+yarn.lock
+package-lock.json

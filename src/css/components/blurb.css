@@ -1,0 +1,26 @@
+.blurb {
+  display: flex;
+  flex-direction: column;
+}
+
+.blurb__cover {
+  border-radius: var(--border-radius-m);
+  aspect-ratio: 3 / 1;
+  background-color: var(--color-neutral-100);
+}
+
+.blurb__cover {
+  order: 0;
+}
+.blurb__title {
+  order: 1;
+  font-size: var(--step-1);
+  margin-top: var(--space-2xs);
+}
+
+.blurb__count {
+  order: 2;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-body-light);
+  margin-top: var(--space-3xs);
+}

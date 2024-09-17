@@ -1,0 +1,78 @@
+html {
+  --flow-space: var(--space-m);
+
+  font-family: var(--font-family-sans);
+  font-size: var(--step-0);
+  color: var(--color-text-body);
+  background-color: var(--background-color-document);
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
+  line-height: 1.1;
+}
+
+:is(h1, h2, h3, h4) {
+  line-height: var(--leading-fine);
+  text-wrap: balance;
+  font-weight: var(--font-weight-bold);
+}
+
+h1 {
+  font-size: var(--step-4);
+  max-width: 20ch;
+}
+
+h2 {
+  font-size: var(--step-3);
+  max-width: 35ch;
+}
+
+h3 {
+  font-size: var(--step-2);
+  max-width: 35ch;
+}
+
+/* A elements that don't have a class get default styles */
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+  color: currentColor;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+[role="list"][class],
+[role="tablist"] {
+  margin-block: 0;
+  padding: 0;
+  list-style: none;
+}

@@ -1,0 +1,62 @@
+.form {
+  --form-max-width: 45ch;
+
+  --form-input-border-color: var(--color-neutral-300);
+  --form-input-border-color-active: var(--color-primary-300);
+  --form-input-border-radius: var(--border-radius-m);
+
+  container-type: inline-size;
+}
+
+.form-control label,
+.form-control input,
+.form-control textarea {
+  display: block;
+  width: 100%;
+}
+
+.form-control input,
+.form-control textarea {
+  border: 1px solid var(--form-input-border-color);
+  border-radius: var(--form-input-border-radius);
+}
+
+.form-control label {
+  --form-control-label-color: var(--color-neutral-400);
+
+  color: var(--form-control-label-color);
+}
+
+.form-control textarea {
+  resize: none;
+}
+
+.form-control {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: var(--form-max-width);
+  gap: var(--space-2xs) var(--space-s);
+}
+
+.form-control__label,
+.form-control__input {
+  flex-basis: 100%;
+}
+
+.form-footer {
+  display: flex;
+  justify-content: end;
+  max-width: var(--form-max-width);
+}
+
+@container (min-width: 36rem) {
+  .form-control label {
+    text-align: right;
+    line-height: 1.8;
+  }
+
+  .form-control {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+}

@@ -1,0 +1,50 @@
+---
+title: A Tiny Company
+layout: layouts/base.njk
+---
+
+<main id="main" class="[ main ][ page ]" tabindex="-1" aria-live="polite">
+  <nav class="page__content page__content--bleed">
+    <ul role="list" class="tabs">
+      <li><a class="tabs__tab" href="/">Text</a></li>
+      <li><a class="tabs__tab tabs__tab--active" href="/form">Form</a></li>
+      <li><a class="tabs__tab" href="/cards">Cards</a></li>
+      <li><a class="tabs__tab" href="#">A silly & long named tab</a></li>
+    </ul>
+  </nav>
+  <div class="[ page__content ][ flow ]">
+    <h1>A useless form</h1>
+    <form action="" class="[ form ][ flow ]">
+      <div class="form-control">
+        <div class="form-control__label">
+          <label for="contact-name">Name</label>
+        </div>
+        <div class="form-control__input">
+          <input id="contact-name" name="name" type="text" />
+        </div>
+      </div>
+
+      <div class="form-control ">
+        <div class="form-control__label">
+          <label for="contact-email">Email</label>
+        </div>
+        <div class="form-control__input">
+          <input id="contact-email" name="name" type="email" />
+        </div>
+      </div>
+
+      <div class="form-control">
+        <div class="form-control__label">
+          <label for="contact-note">Note</label>
+        </div>
+        <div class="form-control__input">
+          <textarea id="contact-note" name="name" type="text"></textarea>
+        </div>
+      </div>
+
+      <div class="form-footer">
+        <input type="submit" class="button" value="Send" />
+      </div>
+    </form>
+  </div>
+</main>
