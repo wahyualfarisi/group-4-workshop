@@ -1,4 +1,4 @@
-# A Tiny Component Library
+# A Tiny Pattern Library
 
 ## Customizing colors and type
 
@@ -10,5 +10,5 @@
 
 ```sh
 $ npm install
-$ npm dev # Starts development server. 🚨 Known issue: Doesn't live reload CSS changes
+$ npm dev # Starts development server.
 ```
