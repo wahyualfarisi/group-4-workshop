@@ -3,7 +3,7 @@
 
 .doc-section__header,
 .doc-section__content {
-  padding: var(--space-m) var(--space-2xs-l);
+  padding: var(--space-m);
   max-width: var(--measure-l);
   margin-inline: auto;
 }
