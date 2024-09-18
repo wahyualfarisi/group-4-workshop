@@ -8,8 +8,8 @@
 @import "./design-tokens.colors.neutral.css" layer(global);
 
 /* 👋 Pick one of the colors */
-@import "./design-tokens.colors.primary-01.css" layer(global);
-/* @import "./design-tokens.colors.primary-02.css" layer(global); */
+/* @import "./design-tokens.colors.primary-01.css" layer(global); */
+@import "./design-tokens.colors.primary-02.css" layer(global);
 /* @import "./design-tokens.colors.primary-03.css" layer(global); */
 
 @import "./design-tokens.css" layer(global);
