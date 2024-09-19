@@ -1,0 +1,133 @@
+---
+title: Our Components
+layout: layouts/base.njk
+---
+
+<main id="main" class="[ main ]" tabindex="-1" aria-live="polite">
+  <div class="doc-section">
+    <div class="doc-section__header">
+      <h1>{{ title }}</h1>
+    </div>
+  </div>
+
+  <div class="doc-section" data-doc-section-bleed="true">
+    <div class="doc-section__header">
+      <h2>Header Component</h2>
+    </div>
+
+    <header class="header">
+      <div class="navbar">
+        <div class="navbar__menu">
+          <button class="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="navbar__logo">
+            Logo
+          </div>
+        </div>
+        <div class="navbar__icons">
+          <button class="icon-button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <button class="icon-button">
+            <i class="fas fa-bell"></i>
+          </button>
+          <button class="profile-icon">
+            <img src="https://wac-cdn.atlassian.com/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg?cdnVersion=2260" alt="Profile">
+          </button>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="#" class="nav-link active">Home</a>
+        <a href="#" class="nav-link">Discover</a>
+        <a href="#" class="nav-link">Watch Parties</a>
+        <a href="#" class="nav-link">Leaderboard</a>
+      </nav>
+    </header>
+  </div>
+
+  <div class="doc-section" data-doc-section-bleed="true">
+    <div class="doc-section__header">
+      <h2>Buttons</h2>
+    </div>
+
+    <div class="doc-section__content">
+      <div class="flow">
+      <button class="icon-button">
+        Latest
+        <i class="fa-solid fa-chevron-down"></i>
+      </button>
+
+      <button class="toolbar icon-button">
+        <i class="fa-solid fa-plus"></i>
+        Add New
+      </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="doc-section" data-doc-section-bleed="true">
+    <div class="doc-section__header">
+      <h2>Trending Reviews & Movies</h2>
+    </div>
+    <div class="doc-section__content">
+      <div class="flow">
+
+        <div>
+          <div class="trending-button review">
+              <div class="trending-button-text">
+                <i class="fa-solid fa-message" style="color: blue; margin-right: 10px;"></i>
+                <p style="font-size: var(--step-1);" class="trending">Trending Reviews</p>
+              </div>
+
+              <button class="icon-button">
+                <i class="fa-solid fa-chevron-right" style="color: ##6D7588"></i>
+              </button>
+          </div>
+
+          <div class="trending-button review">
+              <div class="trending-button-text">
+                <i class="fa-solid fa-film" style="color: #00995E; margin-right: 10px;"></i>
+                <p style="font-size: var(--step-1);" class="trending">Trending Movies</p>
+              </div>
+
+              <button class="icon-button">
+                <i class="fa-solid fa-chevron-right" style="color: ##6D7588"></i>
+              </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="doc-section" data-doc-section-bleed="true">
+    <div class="doc-section__header">
+      <h2>Review Card</h2>
+    </div>
+    <div class="doc-section__content">
+      <div class="flow">
+
+          <div class="post">
+            <div class="post-header">
+                <img src="https://images.ctfassets.net/lh3zuq09vnm2/yBDals8aU8RWtb0xLnPkI/19b391bda8f43e16e64d40b55561e5cd/How_tracking_user_behavior_on_your_website_can_improve_customer_experience.png" alt="User">
+                <div>
+                    <strong>Jason Randolf</strong>
+                    <p>2 minutes ago</p>
+                </div>
+            </div>
+            <div class="post-content">
+                <h3>What a movieeeeee!</h3>
+                <p>Aliquam viverra nisl amet nunc eget vitae turpis. Nisi nulla tellus volutpat in tortor...</p>
+                <a href="#">See more</a>
+            </div>
+            <div class="post-footer">
+                <span>👍 0</span>
+                <span>💬 0 comments</span>
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</main>
