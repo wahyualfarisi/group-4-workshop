@@ -201,7 +201,7 @@ body {
 }
 
 /* Desktop Styles (media queries) */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .container {
     flex-direction: row;
     justify-content: space-between;
@@ -234,5 +234,5 @@ body {
   .search-container {
     margin-right: 20px;
   }
-}
+} */
 
